@@ -1,0 +1,15 @@
+.img{
+    max-width: 200px;
+    max-height: 200px;
+}
+.p{
+    justify-content: center;
+}
+.forma{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 400px;
+}

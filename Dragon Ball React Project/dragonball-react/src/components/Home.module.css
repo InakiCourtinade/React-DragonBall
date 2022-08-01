@@ -1,0 +1,16 @@
+.cardGrid{
+    justify-content: center;
+    display: flex;
+   flex-direction: row;
+   
+}
+
+.displayCh{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 3em;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+}
