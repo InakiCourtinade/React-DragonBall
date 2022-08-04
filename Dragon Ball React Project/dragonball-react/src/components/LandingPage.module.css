@@ -1,0 +1,35 @@
+.imagen{
+    display: flex;
+    flex:2;
+    border-radius: 50%;
+    height: 400px;
+    width:400px;
+    margin-top: 50px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contImg{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.boton{
+    border:solid white;
+    border-radius: 5px  ;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    -webkit-box-shadow: 6px 7px 13px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 7px 13px -1px rgba(0,0,0,0.75);
+    box-shadow: 6px 7px 13px -1px rgba(0,0,0,0.75);
+    margin-left: 25%;
+}
+.boton:hover{
+    transform: scale(1.08);
+    transition: all 0.5s;
+    cursor: pointer;
+    color: #fff;
+}
