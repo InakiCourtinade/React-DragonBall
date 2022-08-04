@@ -3,6 +3,7 @@ import {BrowserRouter, Routes} from "react-router-dom";
 import {Route} from "react-router-dom";
 import LandingPage from './components/LandingPage';
 import Home from './components/Home';
+import Details from './components/Details';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Routes>
       <Route exact path ="/" element={<LandingPage/>}/>
       <Route exact path = "/home" element={<Home/>}/>
+      <Route exact path ="/characterDetail/:name" element={<Details/>}/>
       </Routes>
     </BrowserRouter>
   );

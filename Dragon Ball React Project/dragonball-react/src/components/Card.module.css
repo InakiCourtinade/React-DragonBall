@@ -8,8 +8,22 @@
 .forma{
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
 }
 
 .container{
-    max-width: 400px;
+    color: white;
+    height: 350px;
+    width: 300px;
+    -webkit-box-shadow: 6px 7px 13px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 7px 13px -1px rgba(0,0,0,0.75);
+    box-shadow: 6px 7px 13px -1px rgba(0,0,0,0.75);
+}
+.container:hover{
+    transform: scale(1.08);
+    transition: all 0.5s;
+    background-color: rgba(3, 3, 3, 0.719);
+}
+.h3{
+    justify-content: center;
 }
